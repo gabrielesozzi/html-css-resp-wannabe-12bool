@@ -37,12 +37,14 @@ img {
  height: auto;
 }
 
+.img_firstrow {
+  height: 292.5px;
+}
+
 #why img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px;
-  width: auto;
-  height: auto;
 }
 
 [class*=col_]  {
@@ -54,7 +56,9 @@ img {
 }
 
 @media all and (min-width: 768px) {
-
+  #why img {
+   width: 300px;
+  }
 }
 
 @media all and (min-width: 992px) {
@@ -66,7 +70,4 @@ img {
   #why {
     background-color: #F9F9F9;
   }
-
-
-
 }
