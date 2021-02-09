@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#lezioni img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni,
+#steps,
+#why {
+  text-align: center;
+}
+
+#lezioni,
+#why {
+  background-color: #F2F2CD;
+}
+
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+@media all and (min-width: 768px) {
+
+}
+
+@media all and (min-width: 992px) {
+
+}
