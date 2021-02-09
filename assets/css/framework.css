@@ -9,7 +9,7 @@
   clear: both;
 }
 
-[class*="col-"] {
+[class*="col_"] {
   float: left;
 }
 
@@ -59,6 +59,10 @@
 
 .col_xs_12 {
   width: 100%;
+}
+
+.col_xs_offset_0 {
+  margin-left: 0;
 }
 
 .col_xs_offset_1 {
@@ -158,6 +162,10 @@
     width: 100%;
   }
 
+  .col_md_offset_0 {
+    margin-left: 0;
+  }
+
   .col_md_offset_1 {
     margin-left: calc(100%/12);
   }
@@ -255,6 +263,10 @@
 
   .col_lg_12 {
     width: 100%;
+  }
+
+  .col_lg_offset_0 {
+    margin-left: 0;
   }
 
   .col_md_col_lg_offset_1 {

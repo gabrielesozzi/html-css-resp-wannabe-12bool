@@ -15,6 +15,12 @@
 #steps,
 #why {
   text-align: center;
+  padding: 10px 0;
+}
+
+#steps,
+#why {
+  margin-top: 20px;
 }
 
 #lezioni,
@@ -22,15 +28,29 @@
   background-color: #F2F2CD;
 }
 
-#why img {
-  background-color: #428bca;
-  border-radius: 50%;
-  padding: 30px
+#why h1 {
+  text-align: center;
 }
 
 img {
-  width: 50%;
-  height: 50%;
+ width: 50%;
+ height: auto;
+}
+
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+  width: 30%;
+  height: 200px;
+}
+
+[class*=col_]  {
+  padding-top: 15px;
+}
+
+[class^=col_] > hr {
+  margin: 10px 0;
 }
 
 @media all and (min-width: 768px) {
@@ -38,5 +58,15 @@ img {
 }
 
 @media all and (min-width: 992px) {
+  #lezioni {
+    background-color: #FFFFFF;
+  }
+
+  #steps,
+  #why {
+    background-color: #F9F9F9;
+  }
+
+
 
 }
